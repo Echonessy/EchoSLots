@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>抽奖</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1,user-scalable=no">
+    <script src="./static/js/fontSize.js"></script>
+    <script src="./static/js/jquery.min.js"></script>
+    <script src="./static/js/slots/easing.js"></script>
+    <script src="./static/js/slots/slotsExtend.js"></script>
+    <script src="./static/plugin/swiper/swiper.min.js"></script>
+    <link rel="stylesheet" href="./static/css/common.css">
+    <link rel="stylesheet" href="./static/plugin/swiper/swiper.min.css">
+    <link rel="stylesheet" href="./static/css/index.css">
+    <script src="./static/js/common.js"></script>
+</head>
+<body>
+<div class="Single">
+    <div class="Single Top" id="Top">
+        <div class="Single Header">
+            <!--<img src="/static/images/slots/back.png" alt="">-->
+            <!--<span>抽奖</span>-->
+        </div>
+        <p class="Title">赚积分 抽大奖</p>
+        <div class="Single TopTab" id="TopTab">
+            <button>抽奖</button>
+            <button>我的奖品</button>
+        </div>
+        <div class="Single Space">&nbsp;</div>
+    </div>
+    <div class="Single MainBox" id="MainBox">
+        <div class="swiper-container" id="TabContent">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="Single">
+                        <ul class="Single Tip">
+                            <li class="Single">每日签到获得3次抽奖机会</li>
+                            <li class="Single">免费抽奖次数剩余：<span class="FC59" id="FreeChance">0</span> 次</li>
+                        </ul>
+                        <div class="ClearBoth"></div>
+                        <div class="SlotBox">
+                            <img class="YaoGan" src="./static/img/yaogan.png" alt="">
+                            <div class="SlotMain">
+                                <img class="FadeImg" src="./static/img/slotbor.png" alt="">
+                                <dl class="Single SlotList" id="SlotList">
+                                    <dd class= "Ele"></dd>
+                                    <dd class= "Ele"></dd>
+                                    <dd class= "Ele"></dd>
+                                </dl>
+                            </div>
+                            <div class="ClearBoth"></div>
+                            <button class="StartBtn" id="StartBtn"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="Single">
+                        <ul class="Single PrizeList" id="PrizeList"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="./static/js/slots/index.js"></script>
+</body>
+</html>

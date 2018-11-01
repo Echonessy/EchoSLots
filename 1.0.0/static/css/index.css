@@ -1,0 +1,65 @@
+html,body{background: #FF6753;overflow-x: hidden;overflow-y: auto; }
+.Single{float: left;width: 100%;box-sizing: border-box;}
+.FC59{color: #F51918!important;}
+.ClearBoth{clear: both;}
+
+.Top{background: #FF6753;overflow: hidden}
+
+.Header{font-size: 0.427rem;height: 1.173rem;line-height: 1.173rem;position: relative; text-align: center;color: white;font-family: ﻿PingFangSC-Semibold;}
+.Header img{width: 0.29333rem;position: absolute;top: 0.267rem;left: 0.267rem;cursor: pointer;}
+
+
+.Title{float: left;width: 100%;margin: 0.4rem 0 0.8rem 0;font-size: 0.96rem;color: white;text-align: center;;font-family: Trends;}
+.Tip{padding-top: 0.533rem;padding-bottom: 0.267rem;}
+.Tip li{font-family: PingFang-SC-Medium; color: white;font-size: 0.373rem;line-height: 0.373rem;text-align: center;margin-top: 0.133rem; }
+.Tip li:first-child{margin-top: 0;}
+
+
+.Space{padding: 0 0 1rem 0 ;margin: 0;width: 100%; height: 2rem; background: url('../../static/img/bg.png') 0 0 no-repeat; background-size: 100% 100%; }
+.MainBox{padding: 0 0 1rem 0 ;margin: 0;height: 100%; background: url('../../static/img/bg.png') 0 0 no-repeat; background-size: 100% 100%; }
+.MainBox{ position: fixed;width: 100%;height: 100%; z-index: 2;top: 4.74rem;left: 0;padding-bottom: 6.6rem; overflow-x: hidden;overflow-y: auto;}
+
+
+.SlotBox{overflow: hidden;width: 9.467rem;height: 8.933rem;margin: 0 auto;background: url("../../static/img/slotbox.png") 0 0 no-repeat;background-size: 100% 100%;}
+.YaoGan{float: right;width: 0.8267rem;margin-top: 1.68rem;}
+.SlotMain{position: relative; float: right;width: 7.6933rem;height: 6.12rem;overflow: hidden;margin-top: 0.4267rem;;box-sizing: border-box;padding: 0.4rem;}
+.FadeImg{position: absolute;top: 0;left: 0;z-index: 2;width: 100%;height: 100%;}
+.SlotList{ position: relative; height: 5.33rem;width: 100%;box-sizing: border-box;float: left;}
+
+.SlotList dd{
+    float: left;
+    width: 33.33%;
+    box-sizing: border-box;;
+    border-right: 0.0133rem solid rgb(78,78,78);
+    height: 5.33rem;
+    background-color: #fff;
+    background-size: 2.347rem 6.293rem;
+    background-position: left -0.48rem;
+    background-repeat: repeat-y;
+}
+.SlotList dd:last-child{border-right: 0;}
+.Ele{background-image: url("../../static/img/slot.png");}
+.StartBtn{cursor: pointer; border: 0;outline: none; background: url("../../static/img/btn1.png") 0 0 no-repeat;background-size: 100%; width: 4.8rem;height: 1.333rem;;background-size: 100%;display: block;margin: 0.533rem auto 0 auto;}
+.StartBtn:active{ background: url("../../static/img/btn0.png") 0 0.08rem no-repeat;background-size: 100%;  }
+
+.TopTab{background: url("../../static/img/bg0.png") 0 0; background-size:100% 100%;padding: 0;margin: 0;transition: background-image 0.3s ease;}
+.TopTab button{background: none;outline: none;border: 0; cursor: pointer; font-family: PingFang-SC-Medium; float: left;width: 50%;height: 1.2rem;line-height: 1.2rem;font-size: 0.533rem;text-align: center;color: white;}
+
+
+.dino{display: none;}
+.PrizeList{margin-top: 0.8rem;padding:0 0.267rem;}
+.PrizeList>li{position: relative; float: left;width: 9.467rem;height: 2.4rem;margin-bottom: 0.267rem;background: url("../../static/img/list.png")0 0 no-repeat;background-size: 100%;}
+.Advert{width: 1.8667rem;height: 1.8667rem; margin: 0.267rem;float: left;}
+.ListTit{position: absolute;top: 0.4rem;left: 2.4rem; float: left;font-size: 0.3733rem;line-height: 0.3733rem; color: rgb(51,51,51);font-family: PingFang-SC-Medium;}
+.Intro{float: left;position: absolute;left: 2.4rem;bottom: 0.4rem;}
+.Intro>li{width: 100%;color: rgb(153,153,153); line-height: 0.267rem;font-size: 0.267rem;float: left;margin-bottom: 0.133rem;}
+.Intro>li:last-child{margin-bottom: 0;}
+.GetImg{width: 1.6rem;position: absolute;right: 0.4rem;top: 0;bottom: 0;margin: auto;cursor: pointer;height: 0.64rem;}
+
+.Gray{
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
