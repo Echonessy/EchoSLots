@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Echonessy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1,user-scalable=no">
+    <script src="./static/js/fontSize.js"></script>
+    <script src="./static/js/jquery.min.js"></script>
+    <script src="./static/js/slots/easing.js"></script>
+    <script src="./static/js/slots/slotsExtend.js"></script>
+    <link rel="stylesheet" href="./static/css/common.css">
+    <link rel="stylesheet" href="./static/css/index.css">
+    <script src="./static/js/common.js"></script>
+</head>
+<body>
+<div class="SlotContent">
+    <div class="Adver">
+        <img src="./static/img/ad.png" alt="">
+    </div>
+    <div class="Main">
+        <p class="Chance">剩余次数<span class="ChangeNumber">3</span>次</p>
+        <div class="MianBox">
+            <img class="Line" src="./static/img/line.png" alt="">
+            <dl class="SlotList" id="SlotList">
+                <dd class= "Ele"></dd>
+                <dd class= "Ele"></dd>
+                <dd class= "Ele"></dd>
+            </dl>
+        </div>
+        <div class="ButtonBox">
+            <button class="StartBtn" id="StartBtn"></button>
+        </div>
+    </div>
+</div>
+<audio class="Music" src="./static/music/start.mp3" id="Music"></audio>
+<div class="Result" id="Result"></div>
+<script src="./static/js/slots/index.js"></script>
+</body>
+</html>
